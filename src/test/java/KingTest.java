@@ -1,3 +1,5 @@
+import org.example.Character;
+import org.example.King;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
