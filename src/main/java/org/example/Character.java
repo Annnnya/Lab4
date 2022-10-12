@@ -32,7 +32,7 @@ public class Character {
     }
 
     public String toString(){
-        return Character.class.getSimpleName()+"{hp="+hp+", power="+power+"}";
+        return this.getClass().getSimpleName()+"{hp="+hp+", power="+power+"}";
     }
 
     public boolean isAlive(){
